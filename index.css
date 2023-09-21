@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(132, 191, 255);
+    display: grid;
+}
+
+                                                                           /* NAVIGATION BAR */
+nav .division{
+    display: flex;
+    align-items: center;
+    background-color: rgb(165, 199, 255);
+    /* background-color: rgb(193, 204, 255); */
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+}
+
+nav .division .navigation{
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.division .navigation .left .listimg img {
+    float: left;
+    margin: 1vh;
+    height: 12vh;
+    width: 12vh;
+    transition: all 1s ease-in-out .1s;
+}
+.division .navigation .left .listimg img:hover {
+    transform: scale(1.2);
+}
+
+.division .navigation .right {
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+}
+
+.division .navigation .right ul {
+    list-style: none;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.division .navigation .right ul .llist a {
+    text-decoration: none;
+    color: black;
+}
+
+.division .navigation .right ul .llist {
+    font-size: 2.2vh;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 1s ease-in-out .1s;
+}
+
+.division .navigation .right ul .llist:hover {
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+
+.division .search-box{
+    width: 44rem;
+    display: flex;
+    justify-content: right;
+}
+
+.division .search-box .inner-box{
+    width: 16rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.division .search-box .inner-box .input{
+    color: rgb(88, 88, 88);
+    background-color: white;
+    border:1px solid rgb(88, 88, 88);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.division .search-box .inner-box .input:hover{
+    color: black;
+    border:1px solid black;
+    cursor: pointer;
+}
+.division .search-box .inner-box button:hover{
+    box-shadow: 1px 1px 1px black;
+}
+
+                                                                        /* BODY */
+.container {
+    margin: .4rem;
+}
+
+.container .feedback{
+    border-bottom: 2px solid rgb(165, 199, 255);
+ }
+
+.container .feedback .heading{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.container .feedback .feedback-area img{
+    border: .5px solid black;
+    box-shadow: 2px 2px 1px black ;
+    width: 45rem;
+    height: 20rem;
+}
+
+.container .column{
+    border-bottom: 2px solid rgb(215, 226, 255);
+    height: 19rem;
+}
+.container #column03{
+    border: none;
+    height: 19rem;
+}
+
+.container .column .places {
+    display: flex;
+}
+
+.container .column .heading {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.container .column .places {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .column .places .columnPlaces img {
+    border: .5px solid black;
+    width: 17rem;
+    height: 14rem;
+}
+
+.container .column .places .columnPlaces {
+    width: 17rem;
+    height: 14rem;
+    transition: all 1s ease-in-out .2s;
+}
+.container .column .places .columnPlaces:hover {
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: small;
+    transform: scale(1.06);
+}
+
+
+                                                                       /* FOOTER */
+.footer {
+    background-color: rgb(165, 199, 255);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:5px solid black ;
+    border-radius: 10px;
+}
+
+
+.footer .footer-division .input-area{
+    width: 61.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .5rem;
+}
+
+.footer .footer-division .input-area .span{
+    border: 4px solid rgb(127, 184, 246);
+    /* border: 3px solid black; */
+    height: 2rem;
+    width: 16.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer .footer-division .input-area .span select{
+    height: 1.8rem;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 1px;
+} 
+.footer .footer-division .input-area .span select:hover{
+    color: black;
+    border: 1px solid black;
+} 
+
+.footer .footer-division .input-area .span textarea{
+    height: 1.5rem;
+}
+
+.footer .footer-division .input-area input{
+    height: 1.5rem;
+}
+
+
+.footer .footer-division .input-area button{
+    height: 2rem;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 1px;
+}
+.footer .footer-division .input-area button:hover{
+    color: black;
+    border:1px solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+
+.footer .footer-division .para{
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+    font-weight: bolder;
+}
